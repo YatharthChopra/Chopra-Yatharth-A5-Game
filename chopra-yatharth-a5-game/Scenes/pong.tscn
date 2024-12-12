@@ -40,6 +40,7 @@ offset_top = -60.0
 offset_right = 20.0
 offset_bottom = 60.0
 grow_vertical = 2
+color = Color(1, 0, 0, 1)
 metadata/_edit_use_anchors_ = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Player"]
@@ -58,6 +59,7 @@ offset_top = -60.0
 offset_right = 20.0
 offset_bottom = 60.0
 grow_vertical = 2
+color = Color(1, 0, 0, 1)
 metadata/_edit_use_anchors_ = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="CPU"]
@@ -81,6 +83,7 @@ offset_right = 5.0
 offset_bottom = 5.0
 grow_horizontal = 2
 grow_vertical = 2
+color = Color(0, 0, 1, 1)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Ball"]
 shape = SubResource("RectangleShape2D_dkpol")
@@ -112,6 +115,7 @@ shape = SubResource("RectangleShape2D_3jie0")
 [node name="HUD" type="CanvasLayer" parent="."]
 
 [node name="PlayerScore" type="Label" parent="HUD"]
+modulate = Color(0, 1, 0, 1)
 offset_left = 456.0
 offset_top = 5.0
 offset_right = 506.0
@@ -123,6 +127,7 @@ horizontal_alignment = 1
 vertical_alignment = 1
 
 [node name="CPUScore" type="Label" parent="HUD"]
+modulate = Color(0, 1, 0, 1)
 offset_left = 648.0
 offset_top = 5.0
 offset_right = 698.0
